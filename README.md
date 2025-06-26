@@ -20,15 +20,14 @@ We theorize that **aspect-based sentiment analysis** as a technique may be more 
 For training this notebook, we used the annotated dataset from "Semeval-2016 task 5: Aspect based sentiment analysis", which is an Arabic dataset for Hotel reviews. We did not personally create nor annotate this dataset. This is the sample dataset you will find uploaded here!
 
 References: 
+
 Mohammad, A. S., Qwasmeh, O., Talafha, B., Al-Ayyoub, M., Jararweh, Y., & Benkhelifa, E. (2016, December). An enhanced framework for aspect-based sentiment analysis of Hotels' reviews: Arabic reviews case study. In 2016 11th International Conference for Internet Technology and Secured Transactions (ICITST) (pp. 98-103). IEEE.
 Al-Smadi, M., Talafha, B., Al-Ayyoub, M., & Jararweh, Y. (2019). Using long short-term memory deep neural networks for aspect-based sentiment analysis of Arabic reviews. International Journal of Machine Learning and Cybernetics, 10(8), 2163-2175.
 Pontiki, M., Galanis, D., Papageorgiou, H., Androutsopoulos, I., Manandhar, S., Mohammad, A. S., ... & Hoste, V. (2016, June). Semeval-2016 task 5: Aspect based sentiment analysis. In Proceedings of the 10th international workshop on semantic evaluation (SemEval-2016) (pp. 19-30).
+
 [You can find the original GitHub repository hosting this dataset here.](https://github.com/msmadi/ABSA-Hotels)
 
 Feel free to use your own annotated datset. 
-
-###	**Annotations_to_IOB**
-This language-agnostic notebook shows you how to transform your annotations to an IOB-format. It takes the sentence/chunk and the entity text column as an input, and adds a new column to your DataFrame with the IOB-annotations in a list. We do this to be able to apply span evaluation and calculate F1-scores.
 
 ###	**Aspect_flair**
 Using the sample training dataset, we show you the following functionalities of the [Flair package](https://flairnlp.github.io/):
@@ -48,7 +47,9 @@ This notebook shows you an approach to train an ABSA-system for your corpus in A
 # Huggingface models
 In this notebook, we used two Huggingface models.
 The first model, the [AraBERT Model](aubmindlab/bert-base-arabertv2), is used in Task A which is aspect extraction.
+
 Refrence: 
+
 @inproceedings{antoun2020arabert,
   title={AraBERT: Transformer-based Model for Arabic Language Understanding},
   author={Antoun, Wissam and Baly, Fady and Hajj, Hazem},
