@@ -37,7 +37,7 @@ Using the sample training dataset, we show you the following functionalities of 
 4.	Generate few-shot entities for your corpus by fine-tuning Flair’s TARSTAGGER.
 5.	Create your own SequenceTagger on top of TARSTAGGER. 
 
-## Training and evaluation (ABSA) 😀😥
+## Training and evaluation (ABSA)
 ###	**Arabic ABSA**
 This notebook shows you an approach to train an ABSA-system for your corpus in Arabic. A machine learning-based pipeline is developed in two steps: 
 1)	The aspect extraction task is tackled by training a Flair-based sequence tagger using Huggingface models, and evaluating them on your gold-standard data using 5-fold cross-validation. 
