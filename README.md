@@ -1,14 +1,10 @@
 # Arabic Aspect-Based Sentiment Analysis 🎓
 
-This repository hosts the work done in the framework of the [Computational Literary Studies Project (2020-2025)](https://clsinfra.io/). The CLS project is an infrastructure research projects which aims to create materials to support the digital humanities community by pointing them to the myriad of available tools and resources to collect, analyze and publish their literary-historical datasets. 
-
-We at the [Ghent Center for Digital Humanities](https://www.ghentcdh.ugent.be/) and the [Language and Translation Technology Team (LT3)](https://lt3.ugent.be/) were responsible for building Natural Language Processing pipelines for the DH community for **Aspect-Based sentiment analysis** purposes in Arabic. 
+This repository hosts the work done in the framework of the internship on digital text analysis conducted by Lily Foula in summer 2025. THe goal of the internship was to develop a Jupyter notebook for **Aspect-Based sentiment analysis** in Arabic. This was completed in collaboration with Lisa INSERT INSERT, with the support of the [Ghent Center for Digital Humanities](https://www.ghentcdh.ugent.be/) and the [Language and Translation Technology Team (LT3)](https://lt3.ugent.be/).
 
 We decided to tackle this task by focusing our efforts on the development of aspect-based sentiment analysis workflows in two steps:
 1.	Aspect extraction*.
 2.	Sentiment analysis on the aspect and sentence columns.
-
-We theorize that **aspect-based sentiment analysis** as a technique may be more valuable to literary scholars and historians than sentiment analysis on the level of the document, paragraph or sentence. In theory, this technique could thus be used to answer fine-grained research questions on the representation and interpretation of entities in a corpus!
 
 *_We define an aspect as a unit in the sentence which can be both a named entity (a proper name) and a noun._
 
@@ -48,7 +44,7 @@ This notebook shows you an approach to train an ABSA-system for your corpus in A
 In this notebook, we used two Huggingface models.
 The first model, the [AraBERT Model](aubmindlab/bert-base-arabertv2), is used in Task A which is aspect extraction.
 
-Refrence: 
+Reference: 
 
 @inproceedings{antoun2020arabert,
   title={AraBERT: Transformer-based Model for Arabic Language Understanding},
@@ -67,5 +63,6 @@ Looking for other ways to apply ABSA on your corpus? Make sure to check out thes
 * [LitBank](https://github.com/dbamman/litbank)
 * [Python Programming for DH (YouTube)](https://www.youtube.com/@python-programming)
 * [Gollie](https://hitz-zentroa.github.io/GoLLIE/): open-source Large Language Model trained to follow annotation guidelines.
+* Bensoltane, R., & Zaki, T. (2022). Towards Arabic aspect-based sentiment analysis: A transfer learning-based approach. Social Network Analysis and Mining, 12, 1-16.
 
 
