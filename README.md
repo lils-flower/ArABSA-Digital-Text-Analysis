@@ -1,6 +1,6 @@
 # Arabic Aspect-Based Sentiment Analysis 🎓
 
-This repository hosts the work done in the framework of the internship on digital text analysis conducted by Lily Foula in summer 2025. THe goal of the internship was to develop a Jupyter notebook for **Aspect-Based sentiment analysis** in Arabic. This was completed in collaboration with Lisa INSERT INSERT, with the support of the [Ghent Center for Digital Humanities](https://www.ghentcdh.ugent.be/) and the [Language and Translation Technology Team (LT3)](https://lt3.ugent.be/).
+This repository hosts the work done in the framework of the internship on digital text analysis conducted by Lily Foula in summer 2025. THe goal of the internship was to develop a Jupyter notebook for **Aspect-Based sentiment analysis** in Arabic. This was completed in collaboration with Prof. dr. phil. Lisa Maria Franke, Assistant professor, Department of languages and cultures, Centre for Arabic, Islamic and Middle Eastern Studies, Ghent University, with the support of the [Ghent Center for Digital Humanities](https://www.ghentcdh.ugent.be/) and the [Language and Translation Technology Team (LT3)](https://lt3.ugent.be/).
 
 We decided to tackle this task by focusing our efforts on the development of aspect-based sentiment analysis workflows in two steps:
 1.	Aspect extraction*.
